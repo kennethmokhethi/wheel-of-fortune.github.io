@@ -11,170 +11,41 @@ var padding = { top: 20, right: 40, bottom: 0, left: 0 },
 //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
 var data = [
   {
-    label: "Dell LAPTOP",
+    label: "Joseph Kitty",
     value: 1,
     question:
-      "What CSS property is used for specifying the area between the content and its border?",
+      "Suggestions?What functionality should the hospital web app have?",
   }, // padding
   {
-    label: "IMAC PRO",
+    label: "Keneilwe",
     value: 1,
-    question: "What CSS property is used for changing the font?",
+    question:
+      "Suggestions?What functionality should the hospital web app have?",
   }, //font-family
   {
-    label: "SUZUKI",
+    label: "Daylin",
     value: 1,
-    question: "What CSS property is used for changing the color of text?",
+    question:
+      "Suggestions?What functionality should the hospital web app have?",
   }, //color
   {
-    label: "HONDA",
+    label: "Kenneth",
     value: 1,
-    question: "What CSS property is used for changing the boldness of text?",
+    question:
+      "Suggestions?What functionality should the hospital web app have?",
   }, //font-weight
   {
-    label: "FERRARI",
+    label: "Kuhle",
     value: 1,
-    question: "What CSS property is used for changing the size of text?",
+    question:
+      "Suggestions?What functionality should the hospital web app have?",
   }, //font-size
   {
-    label: "APARTMENT",
+    label: "Refilwe",
     value: 1,
     question:
-      "What CSS property is used for changing the background color of a box?",
-  }, //background-color
-  {
-    label: "IPAD PRO",
-    value: 1,
-    question:
-      "Which word is used for specifying an HTML tag that is inside another tag?",
-  }, //nesting
-  {
-    label: "LAND",
-    value: 1,
-    question:
-      "Which side of the box is the third number in: margin:1px 1px 1px 1px; ?",
-  }, //bottom
-  {
-    label: "MOTOROLLA",
-    value: 1,
-    question:
-      "What are the fonts that don't have serifs at the ends of letters called?",
-  }, //sans-serif
-  {
-    label: "BMW",
-    value: 1,
-    question:
-      "With CSS selectors, what character prefix should one use to specify a class?",
-  }, //period
-  {
-    label: "RANGE ROVER",
-    value: 1,
-    question:
-      "With CSS selectors, what character prefix should one use to specify an ID?",
-  }, //pound sign
-  {
-    label: "FREE VISA",
-    value: 1,
-    question:
-      "In an HTML document, which tag holds all of the content people see?",
-  }, //<body>
-  {
-    label: "HOTEL TICKET",
-    value: 1,
-    question: "In an HTML document, which tag indicates an unordered list?",
-  }, //<ul>
-  {
-    label: "PLANE",
-    value: 1,
-    question:
-      "In an HTML document, which tag indicates the most important heading of your document?",
-  }, //<h1>
-  {
-    label: "HOME",
-    value: 1,
-    question:
-      "What CSS property is used for specifying the area outside a box?",
-  }, //margin
-  {
-    label: "MAC BOOK",
-    value: 1,
-    question: "What type of bracket is used for HTML tags?",
-  }, //< >
-  {
-    label: "SAMSUNG GALAXY 7",
-    value: 1,
-    question: "What type of bracket is used for CSS rules?",
-  }, // { }
-  {
-    label: "NOTE BOOK",
-    value: 1,
-    question: "Which HTML tag is used for specifying a paragraph?",
-  }, //<p>
-  {
-    label: "20,0000,0000$",
-    value: 1,
-    question: "What should always be the very first line of code in your HTML?",
-  }, //<!DOCTYPE html>
-  {
-    label: "HOTEL TICKET",
-    value: 1,
-    question: "What HTML tag holds all of the metadata tags for your page?",
-  }, //<head>
-  {
-    label: "SAMSUNG TV",
-    value: 1,
-    question: "In CSS, what character separates a property from a value?",
-  }, // colon
-  {
-    label: "LG  HD TV",
-    value: 1,
-    question: "What HTML tag holds all of your CSS code?",
-  }, // <style>
-  {
-    label: "FREE FURNITURE",
-    value: 1,
-    question: "What file extension should you use for your web pages?",
-  }, // .html
-  {
-    label: "FREE ADMISSION MIT",
-    value: 1,
-    question:
-      "Which coding language is used for marking up content and structure on a web page?",
-  }, // HTML
-  {
-    label: "OPPO CAMERA PHONE",
-    value: 1,
-    question:
-      "Which coding language is used for specifying the design of a web page?",
-  }, // CSS
-  {
-    label: "SAMSUNG NOTE5",
-    value: 1,
-    question:
-      "Which coding language is used for adding functionality to a web page?",
-  }, // JavaScript
-  {
-    label: "HP DESKTOP",
-    value: 1,
-    question:
-      "What CSS property is used for making the edges of a box visible?",
-  }, // border
-  {
-    label: "15,000,000$",
-    value: 1,
-    question: "What character symbol is used at the end of each CSS statement?",
-  }, //semi-colon
-  {
-    label: "BUGGATI",
-    value: 1,
-    question: "By default, how wide is a <div> box?",
-  }, //100%
-  {
-    label: " GOOGLE JOB",
-    value: 1,
-    question:
-      "What character symbol do I use to specify multiple CSS selectors in one code block?",
-  }, //comma
+      "Suggestions?What functionality should the hospital web app have?",
+  },
 ];
 var svg = d3
   .select("#chart")
