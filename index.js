@@ -18,20 +18,17 @@ var data = [
   {
     label: "Daylin",
     value: 1,
-    question:
-    "What have you done?Contrainsts ?,
+    question: "What have you done?Contrainsts ?",
   }, //color
   {
     label: "Kenneth",
     value: 1,
-    question:
-    "What have you done?Contrainsts ?",
+    question: "What have you done?Contrainsts ?",
   }, //font-weight
   {
     label: "Kuhle",
     value: 1,
-    question:
-    "What have you done?Contrainsts ?",
+    question: "What have you done?Contrainsts ?",
   }, //font-size
 ];
 var svg = d3
