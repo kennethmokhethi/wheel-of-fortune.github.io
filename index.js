@@ -13,39 +13,26 @@ var data = [
   {
     label: "Joseph Kitty",
     value: 1,
-    question:
-      "Suggestions?What functionality should the hospital web app have?",
+    question: "What have you done?Contrainsts ?",
   }, // padding
-  {
-    label: "Keneilwe",
-    value: 1,
-    question:
-      "Suggestions?What functionality should the hospital web app have?",
-  }, //font-family
   {
     label: "Daylin",
     value: 1,
     question:
-      "Suggestions?What functionality should the hospital web app have?",
+    "What have you done?Contrainsts ?,
   }, //color
   {
     label: "Kenneth",
     value: 1,
     question:
-      "Suggestions?What functionality should the hospital web app have?",
+    "What have you done?Contrainsts ?",
   }, //font-weight
   {
     label: "Kuhle",
     value: 1,
     question:
-      "Suggestions?What functionality should the hospital web app have?",
+    "What have you done?Contrainsts ?",
   }, //font-size
-  {
-    label: "Refilwe",
-    value: 1,
-    question:
-      "Suggestions?What functionality should the hospital web app have?",
-  },
 ];
 var svg = d3
   .select("#chart")
